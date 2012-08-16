@@ -10,11 +10,10 @@ require "./db/seed"
 # input_day = gets
 
 # Show.where(day_of_week: input_day).each do |s|
-# 	puts s
+# 	puts s.name
 # end
 
-puts Sport.all
-puts Show.all
+
 # Sport.all
 # puts "what sport would you like me to regurgitate to you today?"
 # s = gets
